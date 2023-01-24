@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF8">
+	<title> Student Profile </title>
+	<link rel="stylesheet" href="stylesheethead.css">
+
+	<style>
+	img{
+		width:20%;
+	}
+	div.nav{
+		text-align: center;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		background-color: DeepSkyBlue;
+	}
+	#nav li{
+		display: inline;
+		padding: 30px;
+		background-color: DeepSkyBlue;
+	}
+
+	#nav li:hover {
+		background-color: white;
+	}
+	
+	-----------------------------------------------------------------
+	
+	div.footer{
+		padding-left: 300px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		background-color: DeepSkyBlue;		
+	}
+	
+	.footer{
+		width: 100%;
+		height: 60px;
+		background-color: DeepSkyBlue;
+	}
+	
+	div.footer ul{
+		padding-top: 20px;
+	}
+	
+	div.footer li{
+		display: inline;
+		padding: 15px;
+		background-color: DeepSkyBlue;
+	}
+	
+	#footer li:hover {
+		background-color: white;
+	}
+
+	<!------------------------DO-NOT-TOUCH------------------------------->
+	
+	header {
+		margin-left: 10%;
+		margin-right: 10%;
+		padding: 20px;
+	}
+	
+	#entity {
+		padding-bottom: 5%;
+		padding-left: 2%;
+		padding-right: 2%;
+		width: 20%;
+		float: left;
+	}
+	.imgholder {
+		width: 250px;
+		height: 250px;
+		overflow: hidden;
+	}
+	.imgholder img{
+		width: auto;
+		height: 100%;
+	}
+	
+	#entity h2{
+		text-align: center;
+	}
+	
+	.KOverlay{
+		position: absolute;
+		bottom: 0;
+		height: 40%;
+		width: 20%;
+		opacity: 0;
+		transition: .5s ease;
+		background-color: DeepSkyBlue;
+	}
+	.Kauthar:hover .KOverlay{
+		opacity: 1;
+	}
+	
+	.Kauthar.KOverlay{
+		color: white;
+		font-size: 20px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	}
+	
+	.MOverlay{
+		position: absolute;
+		bottom: 0;
+		height: 40%;
+		width: 20%;
+		opacity: 0;
+		transition: .5s ease;
+		background-color: DeepSkyBlue;
+	}
+	.Mimi:hover .MOverlay{
+		opacity: 1;
+	}
+	
+	.Mimi.MOverlay{
+		color: white;
+		font-size: 20px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	}
+	
+	.NOverlay{
+		position: absolute;
+		bottom: 0;
+		height: 40%;
+		width: 20%;
+		opacity: 0;
+		transition: .5s ease;
+		background-color: DeepSkyBlue;
+	}
+	.Noor:hover .NOverlay{
+		opacity: 1;
+	}
+	
+	.Noor.NOverlay{
+		color: white;
+		font-size: 20px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	}
+	
+	.AOverlay{
+		position: absolute;
+		bottom: 0;
+		height: 40%;
+		width: 20%;
+		opacity: 0;
+		transition: .5s ease;
+		background-color: DeepSkyBlue;
+	}
+	.Abu:hover .AOverlay{
+		opacity: 1;
+	}
+	
+	.Abu.AOverlay{
+		color: white;
+		font-size: 20px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	}
+	.text {
+		color: white;
+		font-size: 20px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+	}
+	
+	p {
+		visibility: hidden;
+	}
+	
+	
+	</style>
+	
+</head>
+<body>
+	<div class ="header">
+	<div class="logo">
+	<a href = "template.html"> <img src="images/londonlogo.png" ></a>
+	</div>
+	<div class="nav">
+	<ul id="nav">
+		<li><a href="gallery.html">Gallery </a></li>
+		<li><a href="studentdetails.html">Student Profile  </a></li>
+		<li><a href="quiz.html">Quiz </a></li>
+		<li><a href="Buy products.html">Shop</a></li>
+		
+	</ul>
+	</div>
+	</div>
+	
+	<!-----------------------------------DO-NOT-TOUCH------------------------------->
+	<h1> Say hello to our team! </h1>
+	
+	<div id="entity">
+		<h2> Kauthar </h2>
+		<a href="kautharCV.html"><div class="Kauthar">
+			<div class="imgholder">
+				<img src="images/kauthar.jpeg" class="thumbnail" alt="Kauthar">  
+			</div>
+			<div class="KOverlay">
+				<div class="text">Student 1
+				- Presentation page
+				- Font size change
+				- Products
+				- CV
+				- Experiences page </div>
+			</div>
+		</div></a>
+	</div>
+	
+	<div id="entity">
+		<h2> Mimi </h2>
+		<a href="MimiCV.html"><div class="Mimi">
+			<div class="imgholder">
+				<img src="images/mimi.jpg" class="thumbnail" alt="Mimi">  
+			</div>
+			<div class="MOverlay">
+				<div class="text">Student 2
+				- Main page
+				- Comments form
+				- External CSS
+				- CV
+				- Shopping page </div>
+			</div>
+		</div></a>
+	</div>
+	
+	<div id="entity">
+		<h2> Noor </h2>
+		<a href="NoorCV.html"><div class="Noor">
+			<div class="imgholder">
+				<img src="images/noor.jpg" class="thumbnail" alt="Noor">  
+			</div>
+			<div class="NOverlay">
+				<div class="text">Student 3
+				- Quiz
+				- Student Details
+				- CV
+				- Landmarks page </div>
+			</div>
+		</div></a>
+	</div>
+	
+	<div id="entity">
+		<h2> Abu Bakar </h2>
+		<a href=" "><div class="Abu">
+			<div class="imgholder">
+				<img src="images/blankpic.png" class="thumbnail" alt="Abu Bakar">  
+			</div>
+			<div class="AOverlay">
+				<div class="text">Student 4
+				- Diagram
+				- Images
+				- CV
+				- Food page </div>
+			</div>
+		</div></a>
+	</div>
+	
+	<p> The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. </p>
+	
+	<div class="footer">
+	<ul id="footer">
+		<li><a href="">Sitemap </a></li>
+		<li><a href="main page.html"> Feedback  </a></li>
+		<li><a href="noorcv.html" id="cred"> Credit  </a></li>
+	</ul>
+	</div>
+
+</body>
+</html>

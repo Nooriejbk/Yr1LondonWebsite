@@ -1,0 +1,529 @@
+<!doctype html>
+<html>
+<head>
+	
+	<meta charset="UTF-8">
+	<title> Shop </title>
+	
+	
+		
+	
+	<style>
+	
+	h1{
+	font-family: helvetica;
+	text-align: center;
+	font-stretch: expanded;
+	letter-spacing: 20px;
+	font-size: 60px;
+	padding: 30px;
+	text-shadow: 6px 8px 1px LightCoral;
+	text-transform: uppercase;
+	}
+
+	img{
+		width:20%;
+	}
+	div.nav{
+		text-align: center;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		background-color: DeepSkyBlue;
+	}
+	#nav li{
+		display: inline;
+		padding: 30px;
+		background-color: DeepSkyBlue;
+	}
+
+	#nav li:hover {
+		background-color: white;
+	}
+	-----------------------------------------------------------------
+
+
+	div.footer{
+		padding-left: 300px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		background-color: DeepSkyBlue;		
+	}
+	
+	.footer{
+		width: 100%;
+		height: 60px;
+		background-color: DeepSkyBlue;
+	}
+	
+	div.footer ul{
+		padding-top: 20px;
+	}
+	
+	div.footer li{
+		display: inline;
+		padding: 15px;
+		background-color: DeepSkyBlue;
+	}
+	
+	#footer li:hover {
+		background-color: white;
+	}
+	
+
+	
+
+	.top, .mid, .bot, img{
+	width: 27%;
+	display: inline;
+	padding: 15px;
+	}
+	
+	.bot2, .bot3, .bot4{
+	width: 10%;
+	display: inline;
+	padding: 15px;
+	}
+	
+
+	
+	.products{
+	border: 3px solid #20b2aa;
+	border-width: 100%;
+	background-color: #aeeeef;
+	padding:20px;
+	
+	}
+
+	
+	
+	#form name{
+	background-color: blue;
+	}
+	
+
+	#form label {
+	font-size: 25px;
+	font-family: helvetica;
+	}
+	
+	.basket{
+	float: right;
+	font-family: helvetica;
+	border: 5px solid 20b2aa;
+	padding: 20px;
+	background-color: white;
+	}
+	
+	h3 {
+	text-align: center;
+	text-decoration: underline;}	
+
+	.details{
+	width: 200px;
+	font-family: helvetica;
+	border: 5px solid #20b2aa;
+	padding: 20px;
+	background-color: white;
+	float: right;
+	
+	}
+	
+	img {
+  	border: 1px solid #ddd;
+ 	 border-radius: 4px;
+  	padding: 5px;
+
+	}
+
+	img:hover {
+	  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	}
+
+	button {
+  		display: inline-block;
+ 		padding: 5px 10px;
+  		font-size: 14px;
+  		cursor: grab;
+  		text-align: center;
+  		text-decoration: none;
+		color: #fff;
+  		background-color: royalblue;
+  		border: none;
+  		border-radius: 9px;
+	}
+
+	button:hover {background-color: LightBlue;}
+	
+	span{
+	font-family: helvetica;
+	}
+	
+	
+
+	<!------------------------DO-NOT-TOUCH------------------------------->
+
+	
+
+	</style>
+
+
+<script>
+    function details( form ) {
+	var form = document.forms[][][][]
+       if ( form.reg.length > 0 ) {
+	alert("thank you");
+          return true;
+	
+       }
+	 else {
+          alert( "fill in all boxes" );
+          return false;
+       }
+    }
+	
+	
+    </script>
+
+	
+</head>
+<body>
+
+
+
+<div class="logo">
+	<a href="template.html" ><img src="images/londonlogo.png"></a>
+	</div>
+	<div class="nav">
+	<ul id="nav">
+		<li><a href="">Gallery </a></li>
+		<li><a href="StudentDetail.html">Student Profile  </a></li>
+		<li><a href="Quiz.html">Quiz </a></li>
+		<li><a href="">Shop</a></li>
+		
+	</ul>
+	</div>
+
+	<!-----------------------------------INSERT YOUR BODY BELOW THIS------------------------------->
+	
+
+	<h1> Souvenirs of London</h1>
+	
+	
+	<div class="top">
+		<img src = "webimg/bear.jpg" alt="Teddy bear">
+	</div>
+	
+	
+	<div class="mid">
+		<img src = "webimg/bag.jpg" alt="Bag">
+	</div>
+
+
+	<div class="bot">
+		<img src = "webimg/cup.jpg" alt="cup">
+	</div>
+	
+	<div class="bot2">
+		<img src = "webimg/key.jpg" alt="key">
+	</div>
+	
+	<div class="bot3">
+		<img src = "webimg/hat.jpg" alt="hat">
+	</div>
+	
+	<div class="bot4">
+		<img src = "webimg/purse.jpg" alt="purse">
+	</div>
+
+
+
+
+	<div class = "products">
+		<div class="basket" name ="basket">
+			<h3>Product Summary: </h3>
+			<div id="basket"></div>
+			<div id="basket2"></div>
+			<div id="basket3"></div>
+			<div id="basket4"></div>
+			<div id="basket5"></div>
+			<div id="basket6"></div>
+	
+			<script>
+		
+		</script>
+		
+		</div>
+	
+	
+	<div class="details">
+	<h3>Enter Your Details</h3>
+		<form name="customer">
+			 <label for="First name"><b>Firstname</b></label>
+    			<input type="text" name="firstname" required>
+			
+			
+			<label for="Surname"><b>Surname</b></label>
+    			<input type="text" name="firstname" required>
+			
+			<div>Address:
+				<input type="text" name="reg" required>
+			</div>
+			
+			<div>Postcode:
+				<input type="text" name="reg" required>
+			</div>
+			
+		<input type="button" onclick="details(form);" value="submit"/>
+		
+			
+		</div>
+		</form>
+		
+	
+	<div id="form">
+	
+		<label for="m">&#163;8 Teddy Bear</label><br>
+		
+		<span>Enter Amount</span>
+		
+		<input type="text" id="Quantity6">
+		
+		<button type="button" onclick="calculateprice6()">Add to Bag</button>
+		
+		<br>
+		
+	
+	
+	<script>
+		function calculateprice6(){
+		var element = document.getElementById("Quantity6");
+		console.log(element);
+		var input = element.value;
+		var quantity = input;
+		
+
+		var price = 8;
+		var total = quantity * price;
+		var output = document.getElementById("basket6");
+		output.innerText =total;
+		}
+		
+	</script>
+
+		
+	
+	
+		
+	</div><br>
+
+
+
+	<div id="form">
+	
+		<label for="m">&#163;15 London Bag</label><br>
+		
+		<span>Enter Amount</span>
+		
+		<input type="text" id="Quantity5">
+		
+		<button type="button" onclick="calculateprice5()">Add to Bag</button>
+		
+		<br>
+		
+	
+	
+		<script>
+		function calculateprice5(){
+		var element = document.getElementById("Quantity5");
+		console.log(element);
+		var input = element.value;
+		var quantity = input;
+	
+
+		var price = 15;
+		var total = quantity * price;
+		var output = document.getElementById("basket5");
+		output.innerText = total;
+		}
+		
+		</script>
+
+		
+	
+	
+		
+	</div><br>
+	
+	<div id="form">
+
+		
+		<label for="m">&#163;3 Cup</label><br>
+		
+		<span>Enter Amount</span>
+		
+		<input type="text" id="Quantity4">
+		
+		<button type="button" onclick="calculateprice4()">Add to Bag</button>
+		
+
+		<br>
+		
+	
+	
+		<script>
+		function calculateprice4(){
+		var element = document.getElementById("Quantity4");
+		console.log(element);
+		var input = element.value;
+		var quantity = input;
+	
+
+		var price = 3;
+		var total = quantity * price;
+		var output = document.getElementById("basket4");
+		output.innerText = total;
+		}
+		
+		</script>
+
+		
+	
+	
+		
+	</div><br>
+	
+
+	<div id="form">
+	
+		
+		<label for="m">&#163;2 Keychain</label><br>
+		
+		<span>Enter Amount</span>
+		
+		<input type="text" id="Quantity3">
+		
+		<button type="button" onclick="calculateprice3()">Add to Bag</button>
+		
+		
+		<br>
+		
+	
+	
+		<script>
+		function calculateprice3(){
+		var element = document.getElementById("Quantity3");
+		console.log(element);
+		var input = element.value;
+		var quantity = input;
+	
+
+		var price = 2;
+		var total = quantity * price;
+		var output = document.getElementById("basket3");
+		output.innerText = total;
+		}
+		
+		</script>
+
+		
+	
+	
+		
+	</div><br>
+	
+	
+<div id="form">
+	
+		
+		<label for="m">&#163;5 Hat</label><br>
+		
+		<span>Enter Amount</span>
+		
+		<input type="text" id="Quantity2">
+		
+		<button type="button" onclick="calculateprice2()">Add to Bag</button>
+		
+		<br>
+		
+	
+	
+		<script>
+		function calculateprice2(){
+		var element = document.getElementById("Quantity2");
+		console.log(element);
+		var input = element.value;
+		var quantity = input;
+	
+
+		var price = 5;
+		var total = quantity * price;
+		var output = document.getElementById("basket2");
+		output.innerText = total;
+		}
+		
+		</script>
+
+		
+	
+	
+		
+	</div><br>
+	
+		<div id="form">
+	
+		
+		<label for="m">&#163;3 Purse</label><br>
+		
+		<span>Enter Amount</span>
+		
+		<input type="text" id="Quantity">
+		
+		<button type="button" onclick="calculateprice()">Add to Bag</button>
+		
+		<br>
+		
+	
+	
+		<script>
+		function calculateprice(){
+		var element = document.getElementById("Quantity");
+		console.log(element);
+		var input = element.value;
+		var quantity = input;
+	
+
+		var price = 3;
+		var total = quantity * price;
+		var output = document.getElementById("basket");
+		output.innerText =total;
+		}
+		
+		</script>
+
+		
+	
+	
+		
+	</div>
+	</div>
+
+	
+	
+
+
+	
+	
+	
+	<!-----------------------------------INSERT YOUR BODY ABVOVE THIS------------------------------->
+	
+	<div class="footer">
+	<ul id="footer">
+		<li><a href="">Sitemap </a></li>
+		<li><a href=""> Feedback  </a></li>
+		<li><a href="" id="cred"> Credit  </a></li>
+	</ul>
+	</div>
+	
+
+</body>
+</html>
